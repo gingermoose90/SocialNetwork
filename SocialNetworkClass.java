@@ -141,18 +141,6 @@ public class SocialNetworkClass {
         throw new NoSuchElementException();
       }
       
-      // checking matrix properly constructed
-      /**
-      System.out.println("number of edges: " + m + " " + graph.numEdges());
-      // check edge matrix correctly constructed
-      for (int i = 0; i < n; i++) {
-        for (int j = 0; j < n; j++) {
-          System.out.print(graph.isEdge(i, j) + " ");
-        }
-        System.out.print("\n");
-      }
-      */
-      
     } catch (NullPointerException e) {
       System.err.println("Inavlid path name.");
       e.printStackTrace();
